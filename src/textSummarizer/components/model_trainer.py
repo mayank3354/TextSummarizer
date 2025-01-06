@@ -19,16 +19,16 @@ class ModelTrainer:
         dataset = load_from_disk(self.config.data_path)
         training_args = TrainingArguments(
             output_dir=self.config.root_dir,
-            num_train_epochs=self.config.num_train_epochs,
-            per_device_train_batch_size=self.config.per_device_train_batch_size,
-            warmup_steps=self.config.warmup_step,
-            weight_decay=self.config.weight_decay,
-            logging_dir=self.config.root_dir,
-            logging_steps=self.config.logging_steps,
-            evaluation_strategy=self.config.evaluation_strategy,
-            eval_steps=self.config.eval_steps,
-            save_steps=self.config.save_steps,
-            gradient_accumulation_steps=self.config.gradient_accumulation_steps
+            num_train_epochs=1,
+            warmup_steps=500,
+            per_device_train_batch_size=1,
+            per_device_eval_batch_size=1,
+            weight_decay=0.01,
+            logging_steps=10,
+            evaluation_strategy='steps',
+            eval_steps=500,
+            save_steps=1e6,
+            gradient_accumulation_steps=16
         )
         
         
