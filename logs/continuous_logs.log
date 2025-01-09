@@ -597,3 +597,240 @@ OSError: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_tr
 [2025-01-06 23:34:29,617] INFO: main: Model Training Stage completed successfully]
 [2025-01-08 13:55:00,011] INFO: config: PyTorch version 2.5.1+cu124 available.]
 [2025-01-08 13:55:00,045] INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-08 16:33:07,660] INFO: config: PyTorch version 2.5.1+cu124 available.]
+[2025-01-08 16:33:07,696] INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-08 16:35:54,110] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:35:54,693] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:35:54,717] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:35:54,744] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:37:04,830] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:37:04,835] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:37:04,837] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:37:04,838] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:40:41,471] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:40:41,474] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:40:41,476] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:40:41,479] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:44:30,235] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:44:30,239] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:44:30,258] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:44:30,306] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:49:24,496] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:49:24,500] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:49:24,504] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:49:24,506] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:50:00,071] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:50:00,075] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:50:00,077] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:50:00,079] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:50:59,521] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:50:59,525] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:50:59,526] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:50:59,528] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:52:22,726] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:52:22,730] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:52:22,732] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:52:22,734] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:54:56,441] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:54:56,445] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:54:56,448] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:54:56,449] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:55:54,770] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-08 16:55:54,774] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-08 16:55:54,776] INFO: common: creating directory at: artifacts]
+[2025-01-08 16:55:54,777] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-08 16:56:46,543] INFO: rouge_scorer: Using default tokenizer.]
+[2025-01-09 11:58:15,301] INFO: config: PyTorch version 2.5.1+cu124 available.]
+[2025-01-09 11:58:15,357] INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-09 12:01:04,763] WARNING: module_wrapper: From D:\MLOPS\TextSummarizer\venv\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-09 12:10:17,236] INFO: config: PyTorch version 2.5.1+cu124 available.]
+[2025-01-09 12:10:17,259] INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-09 12:15:30,326] WARNING: module_wrapper: From D:\MLOPS\TextSummarizer\venv\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-09 12:15:38,913] INFO: main: Initiating Data Ingestion Stage]
+[2025-01-09 12:15:38,979] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:15:39,031] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:15:39,064] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:15:39,065] INFO: common: creating directory at: artifacts/data_ingestion]
+[2025-01-09 12:15:39,129] INFO: data_ingestion: File already exists]
+[2025-01-09 12:15:40,508] INFO: data_ingestion: File extracted at artifacts/data_ingestion]
+[2025-01-09 12:15:40,508] INFO: stage_1_data_ingestion_pipeline: Data Ingestion process completed.]
+[2025-01-09 12:15:40,510] INFO: main: Data Ingestion Stage completed successfully]
+[2025-01-09 12:15:40,511] INFO: main: Initiating Data Transformation Stage]
+[2025-01-09 12:15:40,518] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:15:40,522] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:15:40,523] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:15:40,525] INFO: common: creating directory at: artifacts/data_transformation]
+[2025-01-09 12:15:57,565] ERROR: main: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummarizer\main.py", line 26, in <module>
+    data_transformation_pipeline.initiate_data_transformation()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 15, in initiate_data_transformation
+    data_transformation.convert()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\components\data_transformation.py", line 28, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir, "samsum_dataset"))
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\dataset_dict.py", line 1284, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1560, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1584, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_writer.py", line 373, in __init__
+    self.stream = self._fs.open(path, "wb")
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\spec.py", line 1303, in open
+    f = self._open(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 195, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 359, in __init__
+    self._open()
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 364, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2025-01-09 12:17:25,691] INFO: server: Started server process [19540]]
+[2025-01-09 12:17:25,704] INFO: on: Waiting for application startup.]
+[2025-01-09 12:17:25,704] INFO: on: Application startup complete.]
+[2025-01-09 12:17:25,706] INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-01-09 12:20:15,845] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:20:15,850] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:20:15,852] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:20:15,852] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-09 12:20:27,674] WARNING: module_wrapper: From D:\MLOPS\TextSummarizer\venv\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-09 12:26:15,665] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:26:15,673] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:26:15,675] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:26:15,682] INFO: common: creating directory at: artifacts/model_evaluation]
+[2025-01-09 12:31:43,324] INFO: config: PyTorch version 2.5.1+cu124 available.]
+[2025-01-09 12:31:43,328] INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-09 12:32:32,994] WARNING: module_wrapper: From D:\MLOPS\TextSummarizer\venv\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-09 12:32:42,155] INFO: main: Initiating Data Ingestion Stage]
+[2025-01-09 12:32:42,195] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:32:42,197] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:32:42,198] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:32:42,198] INFO: common: creating directory at: artifacts/data_ingestion]
+[2025-01-09 12:32:42,200] INFO: data_ingestion: File already exists]
+[2025-01-09 12:32:42,928] INFO: data_ingestion: File extracted at artifacts/data_ingestion]
+[2025-01-09 12:32:42,929] INFO: stage_1_data_ingestion_pipeline: Data Ingestion process completed.]
+[2025-01-09 12:32:42,931] INFO: main: Data Ingestion Stage completed successfully]
+[2025-01-09 12:32:42,933] INFO: main: Initiating Data Transformation Stage]
+[2025-01-09 12:32:42,938] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:32:42,943] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:32:42,943] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:32:42,944] INFO: common: creating directory at: artifacts/data_transformation]
+[2025-01-09 12:32:57,845] ERROR: main: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummarizer\main.py", line 26, in <module>
+    data_transformation_pipeline.initiate_data_transformation()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 15, in initiate_data_transformation
+    data_transformation.convert()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\components\data_transformation.py", line 28, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir, "samsum_dataset"))
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\dataset_dict.py", line 1284, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1560, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1584, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_writer.py", line 373, in __init__
+    self.stream = self._fs.open(path, "wb")
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\spec.py", line 1303, in open
+    f = self._open(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 195, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 359, in __init__
+    self._open()
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 364, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2025-01-09 12:34:59,130] INFO: config: PyTorch version 2.5.1+cu124 available.]
+[2025-01-09 12:34:59,134] INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-09 12:35:09,875] WARNING: module_wrapper: From D:\MLOPS\TextSummarizer\venv\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-09 12:35:10,845] INFO: main: Initiating Data Ingestion Stage]
+[2025-01-09 12:35:10,850] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:35:10,852] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:35:10,853] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:35:10,854] INFO: common: creating directory at: artifacts/data_ingestion]
+[2025-01-09 12:35:10,854] INFO: data_ingestion: File already exists]
+[2025-01-09 12:35:11,070] INFO: data_ingestion: File extracted at artifacts/data_ingestion]
+[2025-01-09 12:35:11,071] INFO: stage_1_data_ingestion_pipeline: Data Ingestion process completed.]
+[2025-01-09 12:35:11,072] INFO: main: Data Ingestion Stage completed successfully]
+[2025-01-09 12:35:11,074] INFO: main: Initiating Data Transformation Stage]
+[2025-01-09 12:35:11,078] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:35:11,081] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:35:11,081] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:35:11,082] INFO: common: creating directory at: artifacts/data_transformation]
+[2025-01-09 12:35:12,026] ERROR: main: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummarizer\main.py", line 26, in <module>
+    data_transformation_pipeline.initiate_data_transformation()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 15, in initiate_data_transformation
+    data_transformation.convert()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\components\data_transformation.py", line 28, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir, "samsum_dataset"))
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\dataset_dict.py", line 1284, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1560, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1584, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_writer.py", line 373, in __init__
+    self.stream = self._fs.open(path, "wb")
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\spec.py", line 1303, in open
+    f = self._open(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 195, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 359, in __init__
+    self._open()
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 364, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2025-01-09 12:45:18,681] INFO: config: PyTorch version 2.5.1+cu124 available.]
+[2025-01-09 12:45:51,107] INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-09 12:46:38,932] WARNING: module_wrapper: From D:\MLOPS\TextSummarizer\venv\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-09 12:46:48,799] INFO: main: Initiating Data Ingestion Stage]
+[2025-01-09 12:46:48,848] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:46:48,851] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:46:48,851] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:46:48,852] INFO: common: creating directory at: artifacts/data_ingestion]
+[2025-01-09 12:46:48,853] INFO: data_ingestion: File already exists]
+[2025-01-09 12:46:49,643] INFO: data_ingestion: File extracted at artifacts/data_ingestion]
+[2025-01-09 12:46:49,643] INFO: stage_1_data_ingestion_pipeline: Data Ingestion process completed.]
+[2025-01-09 12:46:49,644] INFO: main: Data Ingestion Stage completed successfully]
+[2025-01-09 12:46:49,644] INFO: main: Initiating Data Transformation Stage]
+[2025-01-09 12:46:49,649] INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-09 12:46:49,651] INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-09 12:46:49,653] INFO: common: creating directory at: artifacts]
+[2025-01-09 12:46:49,654] INFO: common: creating directory at: artifacts/data_transformation]
+[2025-01-09 12:46:53,634] ERROR: main: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummarizer\main.py", line 26, in <module>
+    data_transformation_pipeline.initiate_data_transformation()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 15, in initiate_data_transformation
+    data_transformation.convert()
+  File "D:\MLOPS\TextSummarizer\src\textSummarizer\components\data_transformation.py", line 28, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir, "samsum_dataset"))
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\dataset_dict.py", line 1284, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1560, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_dataset.py", line 1584, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\datasets\arrow_writer.py", line 373, in __init__
+    self.stream = self._fs.open(path, "wb")
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\spec.py", line 1303, in open
+    f = self._open(
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 195, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 359, in __init__
+    self._open()
+  File "D:\MLOPS\TextSummarizer\venv\lib\site-packages\fsspec\implementations\local.py", line 364, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'D:/MLOPS/TextSummarizer/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2025-01-09 12:47:05,614] INFO: server: Shutting down]
+[2025-01-09 12:47:05,814] INFO: on: Waiting for application shutdown.]
+[2025-01-09 12:47:06,022] INFO: on: Application shutdown complete.]
+[2025-01-09 12:47:06,049] INFO: server: Finished server process [19540]]

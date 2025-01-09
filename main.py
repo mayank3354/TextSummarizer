@@ -2,7 +2,7 @@ from src.textSummarizer.logging import logger
 from src.textSummarizer.pipeline.stage_1_data_ingestion_pipeline import DataIngestionTrainingPipeline
 from src.textSummarizer.pipeline.stage_2_data_transformation_pipeline import DataTransformationTrainingPipeline
 from src.textSummarizer.pipeline.stage_3_model_trainer_pipeline import ModelTrainerTrainingPipeline
-from src.textSummarizer.pipeline.stage_4_data_evaluation_pipeline import DataEvaluationPipeline
+from src.textSummarizer.pipeline.stage_4_data_evaluation_pipeline import ModelEvaluationTrainingPipeline
 
 STAGE_NAME = "Data Ingestion Stage"
 
@@ -47,7 +47,7 @@ STAGE_NAME = "Model Evaluation Stage"
 
 try:
     logger.info(f"Initiating {STAGE_NAME}")
-    model_evaluation = ModelTrainerTrainingPipeline()
+    model_evaluation = ModelEvaluationTrainingPipeline()
     model_evaluation.initiate_model_evaluation()
     logger.info(f"{STAGE_NAME} completed successfully")
 
